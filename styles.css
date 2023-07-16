@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 20px 50px;
+  border: 1px solid rgb(158, 150, 150);
+  border-radius: 20px;
+  background: rgb(65, 63, 63);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 80%;
+  height: 40px;
+  margin: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: rgb(242, 235, 235);
+}
+
+.password-toggle {
+  display: block;
+  font-size: 15px;
+  margin: 0 35px;
+  cursor: pointer;
+  color: rgb(207, 207, 216);
+}
+
+button {
+  background-color: red;
+  color: white;
+  width: 200px;
+  height: 50px;
+  margin: 10px 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ca6725;
+
+}
+
+.int{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+}
+
+.form-group1 {
+  margin: 0 20px;
+}
